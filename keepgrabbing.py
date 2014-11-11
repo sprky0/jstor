@@ -10,8 +10,7 @@ import sys
 if len(sys.argv) > 1:
     prefix = ['--socks5', sys.argv[1]]
 else:
-    prefix = ['']
-
+    prefix = []#'-interface','eth0:1']
 line = lambda x: ['curl'] + prefix + ['-H', "Cookie: TENACIOUS=" + str(random.random())[3:], '-o', 'pdfs/' + str(x) + '.pdf', "http://www.jstor.org/stable/pdfplus/" + str(x) + ".pdf?acceptTC=true"]
 
 while 1:
