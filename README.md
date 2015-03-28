@@ -8,3 +8,4 @@ Rest in peace.
 
 ##Todo##
 * Line 5 contains a redacted hostname/domain, does anyone know what that was?
+* https://github.com/sprky0/jstor/issues/1 @speedplane points out there there was a second version of the script (keepgrabbing2.py) which is referenced in the indictment.  If anyone has a copy of this please get in touch or submit a pull request.
